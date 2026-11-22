@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=DeepSeek
+Comment=DeepSeek desktop app
+# The Exec line includes %u to pass the URL to the application
+Exec=/usr/local/bin/deepseek-app %u
+Terminal=false
+Type=Application
+Icon=deepseek-app
+Categories=Utility;
+StartupWMClass=deepseek-app
+
+ 

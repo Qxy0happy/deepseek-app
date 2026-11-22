@@ -1,2 +1,6 @@
-# Nested clone of the frontend; integrate it as a submodule or vendor it later.
-chat-demo/
+.task
+.wails
+bin
+frontend/dist
+frontend/node_modules
+frontend/bindings/

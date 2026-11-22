@@ -1,0 +1,41 @@
+# Revive configuration for the Go backend.
+# The rule set is intentionally conservative: it catches correctness issues
+# and naming problems without demanding doc comments on every unexported symbol.
+
+ignoreGeneratedHeader = false
+severity = "warning"
+confidence = 0.8
+
+[rule.blank-imports]
+
+[rule.context-as-argument]
+
+[rule.dot-imports]
+
+[rule.error-naming]
+
+[rule.error-strings]
+
+[rule.errorf]
+
+[rule.increment-decrement]
+
+[rule.indent-error-flow]
+
+[rule.package-comments]
+
+[rule.range]
+
+[rule.receiver-naming]
+
+[rule.redefines-builtin-id]
+
+[rule.superfluous-else]
+
+[rule.unexported-return]
+
+[rule.unreachable-code]
+
+[rule.unused-parameter]
+
+[rule.var-naming]
